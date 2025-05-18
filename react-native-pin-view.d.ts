@@ -6,7 +6,7 @@ declare module "react-native-pin-view" {
     // @ts-ignore
     import React from "react"
     // @ts-ignore
-    import { ViewStyle, TextStyle } from "react-native"
+    import { TextStyle, ViewStyle } from "react-native"
 
     type onButtonPressCallback = (key: string) => void
     type onValueChangeCallback = (value: string) => void
